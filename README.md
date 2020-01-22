@@ -180,16 +180,16 @@ To Prove:
 				3Dimensional matching reduction to OKT Fig. 3.0 
 				 								           ]
 													   
-It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). In this is more like a black dot or white square.
+It is noted that in a deterministic Turing machine the answer is in affirmative for all inputs following the algorithm. You have the graph and the path to trace. This is quite analogous to the knight on a standard chase board. This same analogy is akin to non-deterministic mechanism given any input for decision of Y (black) or N (white). This is more like addressing to the black dots or the white squares: Yes or No respectively.
 
-Following a certain strict rule which compels the knight or the input to touch on one of two (2) nodes if at the vertex (corner); four (4) nodes if on the edges and eight (8) nodes if at the middle of the board. It will trace the path to the nearest node no backtrack is allowed. This solution could go in a loop within a changing or expanding bases.
+Following a certain strict rule which compels the knight or the input to touch on one of two (2) nodes if at the vertex (corner); four (4) nodes if on the edges and eight (8) nodes if at the middle of the board. It will trace the path to the nearest node, no backtrack is allowed. This solution could go in a loop within a changing or expanding base.
 
 Open knight path traced from any corner of n x n graph will have 2n nodes of connection for 3 moves at the most. This is counted from n=0 position (Initial point) where n=0 is not really a move.
 
 1.	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered for initial position n=0. This means that the number of nodal connections at any chosen path will have 2n nodes; where 0=<n=<3. Only one node will be activated to move on to the next point of decision in the path. This is how the numbers are generated.
 	
 End of proof:
-The open knight tours satisfy the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets that could be held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
+The open knight tours fits the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets that could be held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a provenance or certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
 
 
 Relying on the above claims and premises we submit this reference specification of an algorithm that combines symmetric and asymmetric cryptography using zero knowledge triangle flow and homomorphic encryption, standing strong enough to resist attacks from quantum computing. - Lattice-Face Key Infrastructure (LFKI)-- It recognizes and applies:
@@ -202,12 +202,12 @@ Relying on the above claims and premises we submit this reference specification 
  
  d) Hashes are not used in the classical sense for authentication: They only suffice for initial plain text integrity (digest) check
  
- e) CRC or checksum is not pushed here because of HE: If the hashes matches, original plaintext is the same as the current one.
+ e) CRC or checksum is not pushed here because of HE: If the hashes matche, original plaintext is the same as the current one.
       
 The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, reatil, finance and education.
 
 # Infrastructure of LFK
-It has an elegant, simple and easy to implement approach. Our social mode of interaction on the media had made possible for us to easily figure out what works. Many profile today are comprised of attributes. Therefore, we reduce data into certain groups for seemingly public key implementation.
+It has an elegant, simple and easy to implement approach. Our social mode of interaction on the media had made possible for us to easily figure out what works. Many profile today are comprised of attributes. Therefore, we reduce data into certain groups for seemingly public key implementations.
 
 Digital Nucleus Agregator(DnA): These are attributes that can be converted to encrypted strings for various intermediate representation in the digital space. e.g Name, SS#, eFri, DOB, PIN, Address, password Gender, Driver license# etc. It could be anything of your choosing. Profiles rely on DnA as their building blocks for intermediate representation in this reference.
 DnA are derived from profiles attributes as we will demonstrate later.
