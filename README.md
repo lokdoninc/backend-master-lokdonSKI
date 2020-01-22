@@ -164,8 +164,10 @@ X is NP-Hard if every problem Y Ꞓ NP reduced to X
 In this case inputs for X and Y are the same e.g coordinates, Vp or Pn. There will be no polynomial time algorithm for this proof. There is still a known problem 3DM (Ș) that is NP-Hard. If we can fit this problem into Y, then Y too is NP-Hard.
 
 Proof: Y is NP-Hard
+
 Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given triples T ⊆ x *y*z. 
 Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactly one, s Ꞓ S Following a legal knight move OKT could only be on black dot (Y) or white square (N) at once? 
+
 Method: Reduction of X to Y.
 Three-dimensional matching (3DM) is NP Complete (Theorem). It is going to be a graphical prove. To make this easy, we set up an 8 by 8 matrix of black dots and white squares see the Fig 1.0 [C]. Let X represent the lattice basis (SVP) and Y represent OKT. Lattice basis (SVP) had been reduced to NP-Hard problem earlier [LLL82] [4]. Other precedence, 3-SAT was reduced to 3DM [GJ79].
 To Prove:
