@@ -164,7 +164,8 @@ ii.	If Y Ꞓ NP then X Ꞓ NP
 X not in P unless P = NP
 X is NP Complete if X Ꞓ NP & X is NP-Hard.
 X is NP-Hard if every problem Y Ꞓ NP reduced to X
-In this case inputs for X and Y are the same e.g coordinates, Vp or Pn. There will be no polynomial time algorithm for this proof. There is still a known problem 3DM (Ș) that is NP-Hard. If we can fit this problem into Y, then Y too is NP-Hard.
+In this case inputs for X and Y are the same e.g coordinates, vector positons VPn or matrix postions MPn. There will be no polynomial time algorithm for this proof. There is still a known problem 3DM (Ș) that is NP-Hard. If we can fit this problem into Y, then Y too is NP-Hard.
+Y is the OKT solutions consisting of numbered elements of the lattice faces. You have basis (numbers accessible through indices) collectively forming a complete set or ensemble.
 
 Proof: Y is NP-Hard
 
