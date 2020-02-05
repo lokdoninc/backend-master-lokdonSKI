@@ -209,7 +209,7 @@ Relying on the above claims and premises we submit this reference specification 
  
  e) CRC or checksum is not pushed here because of HE: If the hashes matche, original plaintext is the same as the current one.
       
-The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, reatil, finance and education.
+The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, retail, finance and education.
 
 # Infrastructure of LFK
 It has an elegant, simple and easy to implement approach. Our social mode of interaction on the media had made possible for us to easily figure out what works. Many profile today are comprised of attributes. Therefore, we reduce data into certain groups for seemingly public key implementations.
@@ -393,7 +393,7 @@ Encryption (bits)  |Size of Dword (bits) |Stable standard signal state (unitless
 
 2048---------------------------8-----------------------4----------------------------256+ bytes---------1048+ bits ECSMID
 
-The table is a potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to the understanding the work of cryptography done with primitives of lattice basis. It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Do check the C++ operation of the mechanism-->>https://youtu.be/sx0YBK4RYcw
+The table is a potent and simple approach to presenting a quantum-immune or resistance cryptography. This simplifies the complexity to understanding the work of cryptography done with primitives of lattice basis. It is clear by now that quantum computing will be the death of AES and many other crypto systems. The nature of quaternary number manipulation makes this possible. Do check the C++ operation of the mechanism-->>https://youtu.be/sx0YBK4RYcw
 										    
 
 Sample 
