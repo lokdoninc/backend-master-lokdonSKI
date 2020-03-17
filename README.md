@@ -20,7 +20,9 @@ Josiah Johnson Umezurike | September 12th 2018
 # The solution
 # Technical Specification
 -Applying Neural Network(special case)
+
 -Infrastructure of LFK
+
 -Architecture
 # Advantages (NEW APPROACH or AXIOMS)
 # Basic anaylysis of QC & LFKI
