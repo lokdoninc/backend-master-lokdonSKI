@@ -211,6 +211,15 @@ Relying on the above claims and premises we submit this reference specification 
       
 The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, retail, finance and education.
 
+# Applying Neural Network(special case):
+It is interesting to know that solutions involving expanded dimension are only considered with divergence in view. This is inline with open knight tour. As you can envision, we could achieve all this in a faster manner by using neural networks. Where 0 is inactive or NO (white square) and 1 is active or YES (black square) as the proof tauhgt us. A neuron then becomes a valid knight move.
+
+![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/neural_network.png)
+
+[
+						  Neural Network approach fig 3.0B
+						                                                  ]
+
 # Infrastructure of LFK
 It has an elegant, simple and easy to implement approach. Our social mode of interaction on the media had made possible for us to easily figure out what works. Many profile today are comprised of attributes. Therefore, we reduce data into certain groups for seemingly public key implementations.
 
