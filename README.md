@@ -244,7 +244,7 @@ let n= 7 and k=2
        7!/2! = 2520
 singletons
 5! = 120
-arrangement = 604,800*2520*120 = 182,891,520,000
+arrangement = 604,800x2520x120 = 182,891,520,000
 The above means that there are 182,891,520,000 ordered ways of arranging 
 						       7888906754
 						       ...
@@ -254,7 +254,7 @@ The above means that there are 182,891,520,000 ordered ways of arranging
 						       ,...
 						       9067547888
 						       ...
-Further one can arrange these numbers in twos. If we must arrange these numbers in five sets of twos. It will be another 10!/8! Way or representing the distinguished arrangement = 182,891,520,000*90 =
+Further one can arrange these numbers in twos. If we must arrange these numbers in five sets of twos. It will be another 10!/8! Way or representing the distinguished arrangement = 182,891,520,000x90 =
 16,460,236,800,000‬
 Iff all two digits are distinct.
 						       78 88 90 67 54
