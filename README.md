@@ -170,7 +170,7 @@ X is NP-Hard if every problem Y Ꞓ NP reduced to X
 In this case inputs for X and Y are the same e.g coordinates, vector positons VPn or matrix postions MPn. There will be no polynomial time algorithm for this proof. There is still a known problem 3DM (Ș) that is NP-Hard. If we can fit this problem into Y, then Y too is NP-Hard.
 Y is the OKT solutions consisting of numbered elements of the lattice faces. You have basis (numbers accessible through indices) collectively forming a complete set or ensemble.
 
-Proof: Y is NP-Hard
+**Proof:** Y is NP-Hard
 
 Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given 3-tuple or triple T ⊆ x *y*z. 
 Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactly one, s Ꞓ S Following a legal knight move OKT could only be on black dot (Y) or white square (N) at once? 
@@ -178,7 +178,7 @@ Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactl
 Method: Reduction of X to Y.
 Three-dimensional matching (3DM) is NP Complete (Theorem). It is going to be a graphical prove. To make this easy, we set up an 8 by 8 matrix of black dots and white squares see the Fig 1.0 [C]. Let X represent the lattice basis (SVP) and Y represent OKT. Lattice basis (SVP) had been reduced to NP-Hard problem earlier [LLL82] [4]. Other precedence, 3-SAT was reduced to 3DM [GJ79].
 
-To Prove:
+**To Prove:**
 Ș ≤p Y (If we could solve Ș we could solve Y).
 
 
@@ -196,7 +196,7 @@ Open knight path traced from any corner of n x n graph will have 2n nodes of con
 
 1.	The assumed position (Pn) on the corner is not counted as the first move such that no move is considered for initial position n=0. This means that the number of nodal connections at any chosen path will have 2n nodes; where 0=<n=<3. Only one node will be activated to move on to the next point of decision in the path. This is how the numbers are generated.
 	
-End of proof:
+**End of proof:**
 The open knight tours fits the condition of 3DM where in, a response of true (Y) or false (N) is entered to satisfy that only one element of the triplets that could be held in T.  If the path found for the legal knight is correct the clause must be black dot else white square. The path of a legal move, is a provenance or certificate which the machine must verify by counting black as a YES or white square as a NO. This method does not need to worry about garbage collection in the circuit.
 
 
