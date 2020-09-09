@@ -172,14 +172,14 @@ Y is the OKT solutions consisting of numbered elements of the lattice faces. You
 
 **Proof:** Y is NP-Hard
 
-Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given 3-tuple or triple T ⊆ x *y*z. 
+**Given:** 3D matching (variable gadget). Disjoint set x, y, z each size n given 3-tuple or triple T ⊆ x *y*z. 
 Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactly one, s Ꞓ S Following a legal knight move OKT could only be on black dot (Y) or white square (N) at once? 
 
-Method: Reduction of X to Y.
+**Method:** Reduction of X to Y.
 Three-dimensional matching (3DM) is NP Complete (Theorem). It is going to be a graphical prove. To make this easy, we set up an 8 by 8 matrix of black dots and white squares see the Fig 1.0 [C]. Let X represent the lattice basis (SVP) and Y represent OKT. Lattice basis (SVP) had been reduced to NP-Hard problem earlier [LLL82] [4]. Other precedence, 3-SAT was reduced to 3DM [GJ79].
 
 **To Prove:**
-Ș ≤p Y (If we could solve Ș we could solve Y).
+Ș ≤p Y (If we could solve Ș we could solve Y). We know from reduction theory that X is NP-Hard if every problem Y Ꞓ NP reduced to X.
 
 
 ![alt text](https://github.com/jumezurike/backend-master-lokdonSKI/blob/master/3DM_PROVE.png)
