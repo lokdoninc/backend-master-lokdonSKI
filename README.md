@@ -172,7 +172,7 @@ Y is the OKT solutions consisting of numbered elements of the lattice faces. You
 
 Proof: Y is NP-Hard
 
-Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given triples T ⊆ x *y*z. 
+Given: 3D matching (variable gadget). Disjoint set x, y, z each size n given 3-tuple or triple T ⊆ x *y*z. 
 Is there a subset S⊆ T  such that every element, Ꞓx ∪ y ∪ z is in exactly one, s Ꞓ S Following a legal knight move OKT could only be on black dot (Y) or white square (N) at once? 
 
 Method: Reduction of X to Y.
