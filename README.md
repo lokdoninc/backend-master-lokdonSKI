@@ -210,7 +210,7 @@ Relying on the above claims and premises we submit this reference specification 
  
  d) Hashes are not used in the classical sense for authentication: They only suffice for initial plain text integrity (digest) check
  
- e) CRC or checksum is not pushed here because of HE: If the hashes matche, original plaintext is the same as the current one.
+ e) CRC or checksum is not pushed here because of HE: If the hashes match, in principle the original plaintext is the same as the current. This is not the case with LFKI.
       
 The minimum modes for any encryption done is usually 5 or m5 for this system. However, you can encrypt anything (a message etc) from M1 to Mnth. This could be applied in telecommunications, IT, aeronautics, litography, medicine and health, retail, finance and education.
 
