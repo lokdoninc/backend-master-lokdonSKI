@@ -37,7 +37,7 @@ Josiah Johnson Umezurike | September 12th 2018
 This article is an observation from over 20 years research work. We are not mathematicians. The sole intent is to solve the common problem of our time from practitioner’ perspective. It is agreed on all grounds the havoc quantum computing will bring to the modern cryptography. Consequently, it is sufficiently relevant to be prepared pre and post quantum. The understanding of Euler, Hamiltonian cycle and lattice basis paved the way in drawing the relationship needed to harmonize the open knight tours (OKT) in the genre of Hamilton’ path. The similarities under study shows the pervasiveness of Hamilton’s path in grid (n x n) formation. In absence of any back track; Infact, it does enumerate all points in Euclidean space if and only if n=>5. Hamilton’ cycle, when applied to grid or chessboard, it clearly proves that it is indeed a hard NP as the grid become richly connected. When this exercise extended to the operation of AES (Rijndael) which commonly lies on 4 x 8 grid. It is possible to  expand the scope of AES to develop a 2048-Bit AES-hybrid using the bounded region between the edges and vertices of lattices. The result is a low-cost, high entropy, endpoint to endpoint cryptographic system for cloud, mobile and IoT devices (ECSMID). The reference specification is a category of hard NP problems closely related to numbered faces of a lattice basis or matrix. This cryptography shows the properties of both symmetric, asymmetric cryptography or public key infrastructure (PKE, KEM and DS).
 
 # Abstract
-We present a new idea by exploring a hybrid system designed to share symmetric and asymmetric properties. LFKI is code named, end-to-end cryptographic system for cloud, mobile, internet of things (IOT) and devices (ECSMID). Until now, there have been not much done on lattice faces as a hybrid cryptographic solution. Here in, we do not owe respect to only randomization reduction or deterministic reduction. We embrace a collective approach to defining the old age question of what problem is hard enough in NP to resist a quantum assailants. Especially, non-deterministic reduction is used to show that lattices are interesting hard problems within the set of NP Complete problems. Though the shortest vector problem (SVP) seems promising. It is nearly enough to facilitate and establish lattice basis; an exception from the priori art [AJI04]. The many configurations of their vertices seem to dismiss the wonderful properties of the dynamic faces abounding in various constructs. The elements of these faces in between regions bounded by the vertices and edges are of great interest to cryptography. When represented as numerical values serve as mathematical images of the basis distribution. It is demonstrated that each vector representation has the potential to generate cryptographically secure number of keys. They follow, somewhat rigid rules; deterministic and yet a chaotic arrangement of the lattice vectors represented within a matrix. A fitting rule is already available with necessary mechanisms to produce 1: n relationship of a plaintext for many ciphertexts. –Open Knight Tour (OKT) can easily modify to absorb larger matrices. We demonstrate in a theoritical quantum circuit, the algorithm has the ability to resist the quantum assailant with continuous noises both  in a quasi- patterned formation and random formation of homogenous input yielding homomorphic outputs.
+We present a new idea by exploring a hybrid system designed to share symmetric and asymmetric properties. LFKI is code named, end-to-end cryptographic system for cloud, mobile, internet of things (IOT) and devices (ECSMID). Until now, there have been not much done on lattice faces as a hybrid cryptographic solution. Here in, we do not owe respect to only randomization reduction or deterministic reduction. We embrace a collective approach to defining the old age question of what problem is hard enough in NP to resist a quantum assailants. Especially, non-deterministic reduction is used to show that lattices are interesting hard problems within the set of NP Complete problems. Though the shortest vector problem (SVP) seems promising. It is nearly enough to facilitate and establish lattice basis; an exception from the priori art [AJI04]. The many configurations of their vertices seem to dismiss the wonderful properties of the dynamic faces abounding in various constructs. The elements of these faces in between regions bounded by the vertices and edges are of great interest to cryptography. When represented as numerical values serve as mathematical images of the basis distribution. It is demonstrated that each vector representation has the potential to generate cryptographically secure number of keys. They follow, somewhat rigid rules; deterministic and yet a chaotic arrangement of the lattice vectors represented within a matrix. A fitting rule is already available with necessary mechanisms to produce 1: n relationship of a plaintext for many ciphertexts. –Open Knight Tour (OKT) can easily modify to absorb larger matrices. We demonstrate in a theoritical quantum circuit, the algorithm has the ability to resist the quantum assailant with continuous noises both  in a quasi- patterned formation and random formation of homogenous input yielding homomorphic/polymorphic outputs.
 
 # OBJECTIVE:
 To show that there is a cryptographic formation following a lattice basis that fits into an ideal set of hard NP problems known to be resistant to quantum computing. A matrix  could be seen as a numerical image of a lattice basis. This brings about a low cost, pervasive and high entropy cipher which hybridizes and increases AES capacity to roughly 16, 10.7, 8 times. Thereby, resists post-quantum attacks and cancels the effects of pre and post-quantum breaches.
@@ -292,7 +292,7 @@ Also note that in as much as the keys are seeded and generated. The dynamic dist
 							    Implementation of data encryptoin Fig.5.0
 					                                                                ]
 
-Following the above process, the mpin encrypt shown is that of the recipients. If one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is tripped and sent with the message:
+Following the above process, the mpin encrypt shown is that of the recipients. If one is sending a message requiring ZKP. For example, M3 mpin of position (P mpinktn=3) is stripped and sent with the message:
 
 Data + mpin encrypt = CT5 --> M5 encrypt -->[ciphertext1]^[mpinm3 encrypt]^[Pktn]^[P mpinktn] -- > M5
 
@@ -304,7 +304,7 @@ On your device you have mpinm2 encrypt:
 Note the replacement of the unstripped m2mpin with m3mpin keys’ position
 [mpinm2 encrypt]^[P mpinktn=3]
 
-in this order the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature of each user in the network. 
+in this order the attacker may never be able to go back to M1 if at all they gain access to the network. M3mpin could be used as a digital signature(intermediate representation) for each user in the network. 
 
 # Simply put->
 	   [   1. The M3PIN or any other mode chosen except for M1 and M5 will serve as the Public key and intermediate 
@@ -313,9 +313,15 @@ in this order the attacker may never be able to go back to M1 if at all they gai
 	   
                2. The seeding positions (Pn) serve the purpose of key encapsulation (KEM)***** 
 	       
-	       3. Signatures (reflecting biometrics this time) are infused in the IR of ZKP*****
+	       3. Signatures (reflecting biometrics this time) are infused in the IR of ZKP*****	     
+	      
+	       4. Public key encryption or any encoding is borne within the scheme as a whole*****
 	       
-	       4. Public key encryption or any encoding is borne within the scheme as a whole*****       ]
+	       5. The relationship between the M2pin and M3pin is the homomorphic trait of the algorithm*****
+	       
+	       6. The homomorphic trait seems impossible without the polymorhphic trait as used here*****
+	       
+	       7. The polymorphic traits implores unique ciphertext in time and space via dynamic keys*****]
 
 # C++ Package demonstration \\\___  \___   \___ \___ \___  \___  \___  \___ \___ \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___  \___ \___\\\
 
